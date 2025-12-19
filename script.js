@@ -266,4 +266,3 @@ body {
         padding: 6px 15px;
     }
 }
-
