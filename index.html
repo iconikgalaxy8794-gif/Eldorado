@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eldorado Seller - Sell My Brainrot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="brand-header">
+        <div class="brand-logo">Eldorado Seller</div>
+    </div>
+    <div class="container">
+        <!-- Étape 1: Bouton initial -->
+        <div id="step1" class="step active">
+            <div class="content">
+                <div class="brand-badge">Eldorado Seller</div>
+                <h1 class="title">Welcome to Eldorado Seller</h1>
+                <p class="subtitle">Sell your brainrot and make it count with Eldorado Seller!</p>
+                <button id="sellButton" class="btn btn-primary">Sell my brainrot</button>
+            </div>
+        </div>
+
+        <!-- Étape 2: Formulaire de brainrot -->
+        <div id="step2" class="step">
+            <div class="content">
+                <div class="brand-badge">Eldorado Seller</div>
+                <h2 class="title">What is your brainrot?</h2>
+                <p class="subtitle">Eldorado Seller - Describe your brainrot</p>
+                <textarea id="brainrotInput" class="textbox" placeholder="Describe your brainrot here..."></textarea>
+                <button id="nextButton" class="btn btn-primary">Next</button>
+            </div>
+        </div>
+
+        <!-- Étape 3: Lien YouTube -->
+        <div id="step3" class="step">
+            <div class="content">
+                <div class="brand-badge">Eldorado Seller</div>
+                <h2 class="title">Join the Eldorado Seller Community</h2>
+                <p class="subtitle">Click below to join us on YouTube - Eldorado Seller</p>
+                <a id="youtubeLink" href="https://youtube.com" target="_blank" class="btn btn-primary">Join</a>
+            </div>
+        </div>
+
+        <!-- Étape 4: Demande de RIB -->
+        <div id="step4" class="step">
+            <div class="content">
+                <div class="brand-badge">Eldorado Seller</div>
+                <h2 class="title">Payment Information - Eldorado Seller</h2>
+                <p class="subtitle">Enter your RIB to receive your payment from Eldorado Seller</p>
+                <div class="input-group">
+                    <label for="ribInput" class="input-label">Your RIB (Bank Account Details)</label>
+                    <input type="text" id="ribInput" class="input-field" placeholder="Enter your RIB here...">
+                </div>
+                <button id="submitRibButton" class="btn btn-primary">Submit RIB</button>
+            </div>
+        </div>
+
+        <!-- Étape 5: Bouton Done Command -->
+        <div id="step5" class="step">
+            <div class="content">
+                <div class="brand-badge">Eldorado Seller</div>
+                <h2 class="title">Complete Your Sale - Eldorado Seller</h2>
+                <p class="subtitle">Finalize your transaction with Eldorado Seller</p>
+                <button id="doneButton" class="btn btn-success">Done Command</button>
+            </div>
+        </div>
+
+        <!-- Étape 6: Message de confirmation -->
+        <div id="step6" class="step">
+            <div class="content">
+                <div class="success-message">
+                    <div class="brand-badge">Eldorado Seller</div>
+                    <div class="checkmark">✓</div>
+                    <h2 class="title">Your brainrot has been sold successfully!</h2>
+                    <p class="subtitle">Thank you for using Eldorado Seller!</p>
+                    <p class="subtitle">Eldorado Seller - Your payment will be processed shortly</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
